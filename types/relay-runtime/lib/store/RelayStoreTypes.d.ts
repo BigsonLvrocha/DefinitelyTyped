@@ -451,7 +451,7 @@ interface LogEventExecuteUnsubscribe {
     readonly transactionID: number;
 }
 
-type LogEvent =
+export type LogEvent =
     | LogEventQueryResourceFetch
     | LogEventExecuteInfo
     | LogEventExecuteStart

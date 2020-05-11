@@ -93,6 +93,7 @@ export {
     SingularReaderSelector,
     Snapshot,
     StoreUpdater,
+    LogEvent,
 } from './lib/store/RelayStoreTypes';
 export { GraphQLSubscriptionConfig } from './lib/subscription/requestSubscription';
 export {
